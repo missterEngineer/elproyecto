@@ -1,0 +1,635 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background: #CCC;
+}
+
+.bodySystem{
+    background: #FFF;
+}
+
+.containerApp{
+    display: flex;
+    flex-direction: column;
+}
+
+/* ACTION CLAS */
+
+.disableClass{
+    display: none;
+}
+
+/* HEADER INICIO */
+
+.headerInicio{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    /* background: rgb(0, 150, 227); */
+    color: #FFF;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    align-items: center;
+    justify-content: end;
+    padding-right: 20px;
+}
+
+.titleSystemHeaderInicio{
+    color: rgba(116, 103, 113, 0.9);
+    font-family: fantasy;
+}
+
+/* LOGIN */
+
+.contenedorLogin{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 85vh;
+}
+
+
+.contenedorFormLogin{
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    margin: auto;
+    background: #FFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.headerFormLogin{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedorspaceImgFormLogin{
+    display: flex;
+    width: 120px;
+    height: 120px;
+    background: #CCC;
+    border-radius: 100px;
+    margin: -35px auto 0 auto;
+}
+
+.contenedorImgLogin{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    margin: auto;
+    border-radius: 100px;
+    /* border: solid 3px rgba(252, 4, 5, 0.4); */
+}
+
+.imgLogin{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.titleLogin{
+    font-weight: 600;
+    color: rgba(0,0,0,0.7);
+    margin: 10px auto;
+}
+
+.formLogin{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+}
+
+.contenedorInput{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto;
+}
+
+.containerError{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 21px;
+}
+
+.spanErrorInput{
+    font-weight: 600;
+    margin-top: -2px;
+    margin-left: 5px;
+    color: rgba(255, 0, 0, 0.6);
+}
+
+.inputOculto{
+    visibility: hidden;
+}
+
+.contenedorBtnForm{
+    margin: 8px auto;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-right: 20px;
+}
+
+.textFooter{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+}
+
+
+/* HEADER HOME */
+
+.headerUser{
+    display: flex;
+    width: 100%;
+    height: 105px;
+    color: #FFF;
+    /* background: rgb(80, 80, 80); */
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    justify-content: space-around;
+    align-items: center;
+}
+
+.containerLogo{
+    width: 95px;
+    height: 95px;
+}
+
+
+
+.containerLogo img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedorTitleHeaderUser{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    padding-right: 25px;
+}
+
+.titleHeaderUser{
+    color: rgba(116, 103, 113, 0.9);
+    font-family: fantasy;
+}
+
+
+.nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: end;
+    padding-right: 45px;
+}
+
+.a-nav{
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 25px;
+    color: #FFA500;
+    text-decoration: none;
+}
+
+.btn_logout{
+    background: none;
+    border-style: none;
+}
+
+/* HOME */
+
+.containerHomeMsg{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 50px auto;
+    padding: 15px 0;
+}
+
+.containerBienvenido{
+    width: 65%;
+    display: flex;
+    margin: 5px auto;
+    padding: 5px 10px;
+}
+
+.textBienvenidoInicio{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.containerTextInicio{
+    width: 90%;
+    height: 45px;
+    margin: 5px auto;
+    display: flex;
+    background: rgba(50, 50, 50, 0.1);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.containerImgTextInicio{
+    width: 40px;
+    height: 40px;
+    margin: auto 5px;
+}
+
+.containerImgTextInicio img{
+    width: 100%;
+    height: 100%;
+}
+
+.spanTextInicio{
+    margin: auto 10px;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* MODAL */
+
+.containaerGlobalModal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+}
+
+.containerModal{
+    width: 50%;
+    height: 70%;
+    min-height: 660px;
+    max-width: 550px;
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    background: #FFF;
+    overflow: auto;
+}
+
+.formModal{
+    display: none;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+}
+
+.formModalActive{
+    display: flex;
+}
+
+.containerBtnsForm{
+    display: flex;
+    width: 90%;
+    height: 40px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.modalActive{
+    visibility: visible;
+}
+
+.btnLeftMargin{
+    margin-right: 10px;
+}
+
+/* MODAL ASIGN */
+
+.containerReINfo{
+    margin-bottom: 15px;
+}
+
+.titleFormRegisterArticle{
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+.subTitleFormModal{
+    margin-left: 25px;
+    font-size: 23px;
+}
+
+.containaerGlobalModalAsing{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+}
+
+
+.containermodalBTNHistory{
+    margin: 10px auto;
+}
+
+
+
+.containerModalAsig{
+    width: 65%;
+    height: 75%;
+    background: #FFF;
+    margin: auto;
+    border-radius: 15px;
+    overflow: auto;
+    min-height: 600px;
+    min-width: 600px;
+    max-width: 980px;
+    max-height: 700px;
+}
+
+.formModalAsig{
+    padding: 10px 5px;
+}
+
+.inputHidden{
+    display: none;
+}
+
+.spanInfoStaffTitle{
+    font-weight: 600;
+    margin: 5px auto;
+}
+
+/* MODAL HISTORY ARTICLES */
+
+.containaerGlobalModalHistory{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+}
+
+
+.containerModalHistoryArticulos{
+    width: 97%;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: #FFF;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.headerContainerModalHistoryArticulos{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedorTablesModalHistoryArticulos{
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* MAIN */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    /* height: 80vh; */
+    margin: 15px auto;
+    background: rgba(255, 255, 255, 0.5);
+    /* border-radius: 20px; */
+}
+
+/* BUSCADOR FUNCIONARIO */
+
+.containerSelectPerson{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px auto 15px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.spanBuscadorFuncionario{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+}
+
+.containerBuscardorFuncionario{
+    display: flex;
+}
+
+.containerInputBuscardor{
+    width: 250px;
+    height: 35px;
+}
+
+.containerBtnBuscardor{
+    margin-left: 5px;
+}
+
+/* BUCADOR FUNCIONARIO */
+
+.contenedorTargetFuncionario{
+    width: 95%;
+    height: 55px;
+    display: flex;
+    background: rgba(55, 55, 55, 0.1);
+    margin-top: 14px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+    visibility: hidden;
+}
+
+.contenedorTargetFuncionarioACTIVE{
+    visibility: visible;
+
+}
+
+.iconTargetFuncionario{
+    width: 35px;
+    height: 35px;
+}
+
+.iconTargetFuncionario img{
+    width: 100%;
+    height: 100%;
+}
+
+.containerInfoFuncionario{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoTargetFuncionario{
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: -4px;
+}
+
+.spanTextCountTotal{
+    font-weight: 600;
+    color: rgba(0,0,0,0.5);
+    margin-top: -5px;
+}
+
+.separador{
+    margin-top: 15px;
+}
+
+.direccionTargetFuncionario{
+    font-size: 11px;
+}
+
+.containerBtnTargetFuncionario{
+    height: 35px;
+}
+
+/* BARRA DE FILTROS */
+
+.contenedorBarraAccion{
+    width: 100%;
+    height: 90px;
+    display: flex;
+}
+
+/* FILTRO DATE */
+
+.containerInputsDateFilter{
+    display: flex;
+    height: 100%;
+}
+
+.containerDateFilter{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    border: solid #fff 1px;
+}
+
+.labelDateFilter{
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+}
+
+.contenerotBtnsDateFiltros{
+    margin-left: 5px;
+}
+
+.contenedorFiltros{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    background: rgba(100, 100, 100, 0.3);
+    padding-left: 15px;
+    align-items: center;
+}
+
+.spanOptionalUtiliti{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.labelTables{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.labelInputFiltro{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.container-inputFIlter-rows{
+    display: flex;
+}
+
+.conteendorInputFiltros{
+    display: none;
+    margin-left: 25px;
+    min-width: 240px;
+    max-width: 280px;
+}
+
+.conteendorInputFiltrosACTIVE{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenerotBtnsFiltros{
+    display: none;
+    padding-top: 32px;
+    margin-left: 10px;
+}
+
+.contenerotBtnsFiltrosACTIVE{
+    display: flex;
+}
+
+.containerbtnModal{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(100, 100, 100, 0.1);
+}
+
+.divBtnContainer{
+    display: flex;
+    margin-top: 5px;
+}
+
+.contenedotTables{
+    width: 100%;
+    display: flex;
+}
+
+.containaerGlobalModalAsingACTIVE{
+    visibility: visible;
+}
